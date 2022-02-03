@@ -3,12 +3,23 @@
   "name": "Slideshow",
   "tag": "section",
   "class": "slideshow",
+  "max_blocks": 5,
   "settings": [
     {
       "type": "text",
       "id": "title",
       "label": "Slideshow"
-    }
+    },
+    {
+        "type": "text",
+        "id": "title1",
+        "label": "Slideshow1"
+      },
+      {
+        "type": "text",
+        "id": "title2",
+        "label": "Slideshow2"
+      }
   ],
   "blocks": [
      {
@@ -22,7 +33,20 @@
          }
        ]
      }
-   ]
+   ],
+   "default": {
+    "settings": {
+      "title2": "Slideshow22222"
+    },
+    "blocks": [
+      {
+        "type": "slide"
+      },
+      {
+        "type": "slide"
+      }
+    ]
+  }
 }
 {% endschema %}
 {% for block in section.blocks %}
@@ -33,3 +57,4 @@
         </div>
     {% endcase %}
   {% endfor %}
+  {{section.settings.title2}}

@@ -225,7 +225,6 @@
           "3e58633c-2101-4e78-9547-f364a762e5b4": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/kiefer-logo.png"
             }
           }
         },
@@ -233,7 +232,9 @@
           "3e58633c-2101-4e78-9547-f364a762e5b4"
         ],
         "settings": {
-          "title": ""
+          "title": "",
+          "title1": "",
+          "title2": "1111"
         }
       },
       "product-recommendations": {
