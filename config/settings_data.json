@@ -221,6 +221,17 @@
       },
       "test": {
         "type": "test",
+        "blocks": {
+          "3e58633c-2101-4e78-9547-f364a762e5b4": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/kiefer-logo.png"
+            }
+          }
+        },
+        "block_order": [
+          "3e58633c-2101-4e78-9547-f364a762e5b4"
+        ],
         "settings": {
           "title": ""
         }
